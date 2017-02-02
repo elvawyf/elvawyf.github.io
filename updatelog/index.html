@@ -2,6 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+    <script type="text/javascript">
+      var host = "elvawyf.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+       window.location.protocol = "https";
+    </script>
+  <link rel="canonical" href="https://www.elvawyf.com" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   
   <title>updated log | Elva Wang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,27 +21,33 @@
   
   
   <meta name="description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝  ﹣ 修改DNS解析  ﹣ 修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝 
 
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt">
+修改DNS解析
+修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Updated Log">
-<meta property="og:url" content="http://elvawyf.com/updatelog/index.html">
+<meta property="og:url" content="https://www.elvawyf.com/updatelog/index.html">
 <meta property="og:site_name" content="Elva Wang">
 <meta property="og:description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝  ﹣ 修改DNS解析  ﹣ 修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝 
 
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt">
-<meta property="og:image" content="http://elvawyf.com/images/pca.jpg">
+修改DNS解析
+修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;">
+<meta property="og:image" content="https://www.elvawyf.com/images/pca.jpg">
 <meta property="og:image" content="http://www.stanford.edu/assets/su-images/stanforduniversity-white@2x.png">
-<meta property="og:updated_time" content="2017-02-02T03:05:36.000Z">
+<meta property="og:updated_time" content="2017-02-02T03:09:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Updated Log">
 <meta name="twitter:description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝  ﹣ 修改DNS解析  ﹣ 修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝 
 
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt">
-<meta name="twitter:image" content="http://elvawyf.com/images/pca.jpg">
+修改DNS解析
+修改根目錄下 _config.yml 文件 url: https://elvawyf.com
+修改主題目錄下 /layout/_partial/head.ejs 文件開頭處  12345678&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;">
+<meta name="twitter:image" content="https://www.elvawyf.com/images/pca.jpg">
   
   <link rel="icon" href="/css/images/favicon.ico">
   
@@ -159,8 +172,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="2017-02-02"><a href="#2017-02-02" class="headerlink" title="2017-02-02"></a>2017-02-02</h1><ul>
-<li><p>使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝<br>  ﹣ 修改DNS解析<br>  ﹣ 修改根目錄下 <code>_config.yml</code> 文件 <code>url: https://elvawyf.com</code></p>
+<li><p>使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝 </p>
 <ul>
+<li>修改DNS解析</li>
+<li>修改根目錄下 <code>_config.yml</code> 文件 <code>url: https://elvawyf.com</code></li>
 <li>修改主題目錄下 <code>/layout/_partial/head.ejs</code> 文件開頭處  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">&lt;script type=&quot;text/javascript&quot;&gt;</div><div class="line">    var host = &quot;elvawyf.com&quot;;</div><div class="line">    if ((host == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))</div><div class="line">     window.location.protocol = &quot;https&quot;;</div><div class="line"> &lt;/script&gt;</div><div class="line">&lt;link rel=&quot;canonical&quot; href=&quot;&lt;%= config.url %&gt;&quot; /&gt;</div><div class="line">&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;upgrade-insecure-requests&quot; /&gt;</div></pre></td></tr></table></figure>
 </li>
 </ul>
@@ -187,7 +202,7 @@
 <h1 id="2017-01-31"><a href="#2017-01-31" class="headerlink" title="2017-01-31"></a>2017-01-31</h1><ul>
 <li>更新 HFT Review 文章的“做市商類型”及“相關推薦”內容</li>
 <li>增加 評論功能，增加“多說”</li>
-<li>申請 一級域名啓用 <a href="http://www.elvawyf.com" target="_blank" rel="external">http://www.elvawyf.com</a> 以及 <a href="http://elvawyf.com">http://elvawyf.com</a> </li>
+<li>申請 一級域名啓用 <a href="http://www.elvawyf.com">http://www.elvawyf.com</a> 以及 <a href="http://elvawyf.com" target="_blank" rel="external">http://elvawyf.com</a> </li>
 <li>解析 DNS成功，阿里雲企業郵箱開始使用 Email: elvawyf@elvawyf.com</li>
 <li>申請 SSL證書，但通過 Nginx 部署並未成功</li>
 <li>調試 RSS效果不佳，不打算使用</li>
@@ -566,7 +581,7 @@
 <script>
   var disqus_shortname = 'elvawyf';
   
-  var disqus_url = 'http://elvawyf.com/updatelog/index.html';
+  var disqus_url = 'https://www.elvawyf.com/updatelog/index.html';
   
   (function(){
     var dsq = document.createElement('script');
