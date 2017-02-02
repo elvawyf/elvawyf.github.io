@@ -10,38 +10,38 @@
   
   
   <meta name="description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
+使用 Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
 
-修改DNS解析
-修改根目錄下 _config.yml 文件 url: https://domain.com
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處
-為實現包括內部http鏈接重新定向到https
-關於 停止HSTS自動跳轉 Chrome系統中 chrom">
+修改 DNS解析
+修改 根目錄下 _config.yml 文件 url: https://domain.com
+修改 主題目錄下 /layout/_partial/head.ejs 文件開頭處
+實現 包括內部http鏈接重新定向到https
+關於 停止HSTS自動跳轉 Chrome系統中 c">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Updated Log">
 <meta property="og:url" content="http://elvawyf.com/updatelog/index.html">
 <meta property="og:site_name" content="Elva Wang">
 <meta property="og:description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
+使用 Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
 
-修改DNS解析
-修改根目錄下 _config.yml 文件 url: https://domain.com
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處
-為實現包括內部http鏈接重新定向到https
-關於 停止HSTS自動跳轉 Chrome系統中 chrom">
+修改 DNS解析
+修改 根目錄下 _config.yml 文件 url: https://domain.com
+修改 主題目錄下 /layout/_partial/head.ejs 文件開頭處
+實現 包括內部http鏈接重新定向到https
+關於 停止HSTS自動跳轉 Chrome系統中 c">
 <meta property="og:image" content="http://elvawyf.com/images/pca.jpg">
 <meta property="og:image" content="http://www.stanford.edu/assets/su-images/stanforduniversity-white@2x.png">
-<meta property="og:updated_time" content="2017-02-02T08:58:56.000Z">
+<meta property="og:updated_time" content="2017-02-02T09:20:40.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Updated Log">
 <meta name="twitter:description" content="2017-02-02
-使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
+使用 Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝
 
-修改DNS解析
-修改根目錄下 _config.yml 文件 url: https://domain.com
-修改主題目錄下 /layout/_partial/head.ejs 文件開頭處
-為實現包括內部http鏈接重新定向到https
-關於 停止HSTS自動跳轉 Chrome系統中 chrom">
+修改 DNS解析
+修改 根目錄下 _config.yml 文件 url: https://domain.com
+修改 主題目錄下 /layout/_partial/head.ejs 文件開頭處
+實現 包括內部http鏈接重新定向到https
+關於 停止HSTS自動跳轉 Chrome系統中 c">
 <meta name="twitter:image" content="http://elvawyf.com/images/pca.jpg">
   
   <link rel="icon" href="/css/images/favicon.ico">
@@ -142,25 +142,26 @@
     <div class="article-meta">
       
 	Posted on <a href="/updatelog/index.html" class="article-date">
-	  <time datetime="2017-02-01T22:08:16.000Z" itemprop="datePublished">February 2, 2017</time>
+	  <time datetime="2017-02-02T09:08:16.000Z" itemprop="datePublished">February 2, 2017</time>
 	</a>
 
     </div>
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="2017-02-02"><a href="#2017-02-02" class="headerlink" title="2017-02-02"></a>2017-02-02</h1><ul>
-<li><p>使用Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝</p>
+<li><p>使用 Cloudflare部署SSL成功，HTTPS綠色Secure小鎖到手 😝</p>
 <ul>
-<li>修改DNS解析</li>
-<li>修改根目錄下 <code>_config.yml</code> 文件 <code>url: https://domain.com</code></li>
-<li>修改主題目錄下 <code>/layout/_partial/head.ejs</code> 文件開頭處</li>
-<li>為實現包括內部http鏈接重新定向到https</li>
-<li>關於 停止HSTS自動跳轉 Chrome系統中 <code>chrome://net-internals/#hsts</code>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;script type=&quot;text/javascript&quot;&gt;</div><div class="line">    var host = &quot;domain.com&quot;;</div><div class="line">    if ((host == window.location.host) &amp;&amp; (window.location.protocol != &quot;https:&quot;))</div><div class="line">     window.location.protocol = &quot;https&quot;;</div><div class="line"> &lt;/script&gt;</div><div class="line">&lt;link rel=&quot;canonical&quot; href=&quot;&lt;%= config.url %&gt;&quot; /&gt;</div></pre></td></tr></table></figure>
+<li>修改 DNS解析</li>
+<li>修改 根目錄下 <code>_config.yml</code> 文件 <code>url: https://domain.com</code></li>
+<li>修改 主題目錄下 <code>/layout/_partial/head.ejs</code> 文件開頭處</li>
+<li>實現 包括內部http鏈接重新定向到https</li>
+<li>關於 停止HSTS自動跳轉 Chrome系統中 <code>chrome://net-internals/#hsts</code>  <figure class="highlight erb"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></span></div><div class="line">    <span class="keyword">var</span> host = <span class="string">"domain.com"</span>;</div><div class="line">    <span class="keyword">if</span> ((host == <span class="built_in">window</span>.location.host) &amp;&amp; (<span class="built_in">window</span>.location.protocol != <span class="string">"https:"</span>))</div><div class="line">     <span class="built_in">window</span>.location.protocol = <span class="string">"https"</span>;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"canonical"</span> <span class="attr">href</span>=<span class="string">"&lt;%=</span></span><span class="ruby"> config.url </span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> /&gt;</span></span></div></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
-<li><p>更新文章：ML Materials Collection </p>
+<li><p>更新 文章：ML Materials Collection </p>
 </li>
+<li>增加 百度統計</li>
 </ul>
 <h1 id="2017-02-01"><a href="#2017-02-01" class="headerlink" title="2017-02-01"></a>2017-02-01</h1><ul>
 <li>開放 Update Log 頁面提交更新日誌</li>
@@ -228,16 +229,15 @@
 </ul>
 <hr>
 <h1 id="Test-Part"><a href="#Test-Part" class="headerlink" title="Test Part"></a>Test Part</h1><p><img src="/images/pca.jpg" alt="PCA"></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Fancybox</div><div class="line"></div><div class="line">Hiero uses Fancybox to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.</div></pre></td></tr></table></figure>
 <p><img src="http://www.stanford.edu/assets/su-images/stanforduniversity-white@2x.png" alt="img caption"></p>
 <p><em>單星號斜體字</em> <strong>雙型號粗體字</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ ipython notebook</div></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>ipython notebook</div></pre></td></tr></table></figure>
 <blockquote>
 <p>Quote ：Nothing is impossible, the word itself says ‘I’m possible’!</p>
 </blockquote>
 <h1 id="heading-1"><a href="#heading-1" class="headerlink" title="heading 1"></a>heading 1</h1><h2 id="heading-2"><a href="#heading-2" class="headerlink" title="heading 2"></a>heading 2</h2><h3 id="heading-3"><a href="#heading-3" class="headerlink" title="heading 3"></a>heading 3</h3><h4 id="heading-4"><a href="#heading-4" class="headerlink" title="heading 4"></a>heading 4</h4><h5 id="heading-5"><a href="#heading-5" class="headerlink" title="heading 5"></a>heading 5</h5><hr>
 <h3 id="Suggestion"><a href="#Suggestion" class="headerlink" title="Suggestion"></a>Suggestion</h3><p>Python is a high-level, dynamically typed multiparadigm programming language. Python code is often said to be almost like pseudocode, since it allows you to express very powerful ideas in very few lines of code while being very readable. As an example, here is an implementation of the classic quicksort algorithm in Python:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">import datetime</div><div class="line">oTime = datetime.datetime.now()</div><div class="line">print oTime.isoformat()</div><div class="line"></div><div class="line">def quicksort(arr):</div><div class="line">    if len(arr) &lt;= 1:</div><div class="line">        return arr</div><div class="line">    pivot = arr[len(arr) / 2]</div><div class="line">    left = [x for x in arr if x &lt; pivot]</div><div class="line">    middle = [x for x in arr if x == pivot]</div><div class="line">    right = [x for x in arr if x &gt; pivot]</div><div class="line">    return quicksort(left) + middle + quicksort(right)</div><div class="line">print quicksort([3,6,8,10,1,2,1])</div><div class="line"># Prints &quot;[1, 1, 2, 3, 6, 8, 10]&quot;</div></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> datetime</div><div class="line">oTime = datetime.datetime.now()</div><div class="line"><span class="built_in">print</span> oTime.isoformat()</div><div class="line"></div><div class="line">def quicksort(arr):</div><div class="line">    <span class="keyword">if</span> len(arr) &lt;= <span class="number">1</span>:</div><div class="line">        <span class="keyword">return</span> arr</div><div class="line">    pivot = arr[len(arr) / <span class="number">2</span>]</div><div class="line">    <span class="keyword">left</span> = [x <span class="keyword">for</span> x <span class="keyword">in</span> arr <span class="keyword">if</span> x &lt; pivot]</div><div class="line">    middle = [x <span class="keyword">for</span> x <span class="keyword">in</span> arr <span class="keyword">if</span> x == pivot]</div><div class="line">    <span class="keyword">right</span> = [x <span class="keyword">for</span> x <span class="keyword">in</span> arr <span class="keyword">if</span> x &gt; pivot]</div><div class="line">    <span class="keyword">return</span> quicksort(<span class="keyword">left</span>) + middle + quicksort(<span class="keyword">right</span>)</div><div class="line"><span class="built_in">print</span> quicksort([<span class="number">3</span>,<span class="number">6</span>,<span class="number">8</span>,<span class="number">10</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>])</div><div class="line"># <span class="type">Prints</span> <span class="string">"[1, 1, 2, 3, 6, 8, 10]"</span></div></pre></td></tr></table></figure>
 <p>Here is the CS231n Python Tutorial from Stanford</p>
 <ul>
 <li><a href="http://cs231n.github.io/python-numpy-tutorial/" target="_blank" rel="external">http://cs231n.github.io/python-numpy-tutorial/</a></li>
