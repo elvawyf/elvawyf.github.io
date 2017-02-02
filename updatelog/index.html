@@ -31,7 +31,7 @@
 實現 包括內部http">
 <meta property="og:image" content="http://elvawyf.com/images/pca.jpg">
 <meta property="og:image" content="http://www.stanford.edu/assets/su-images/stanforduniversity-white@2x.png">
-<meta property="og:updated_time" content="2017-02-02T11:09:37.000Z">
+<meta property="og:updated_time" content="2017-02-02T12:34:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Updated Log">
 <meta name="twitter:description" content="2017-02-02
@@ -156,11 +156,11 @@
 <li>修改 根目錄下 <code>_config.yml</code> 文件 <code>url: https://domain.com</code></li>
 <li>修改 主題目錄下 <code>/layout/_partial/head.ejs</code> 文件開頭處</li>
 <li>實現 包括內部http鏈接重新定向到https</li>
-<li>關於 停止HSTS自動跳轉 Chrome系統中 <code>chrome://net-internals/#hsts</code><figure class="highlight erb"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></span></div><div class="line">    <span class="keyword">var</span> host = <span class="string">"domain.com"</span>;</div><div class="line">    <span class="keyword">if</span> ((host == <span class="built_in">window</span>.location.host) &amp;&amp; (<span class="built_in">window</span>.location.protocol != <span class="string">"https:"</span>))</div><div class="line">      <span class="built_in">window</span>.location.protocol = <span class="string">"https"</span>;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"canonical"</span> <span class="attr">href</span>=<span class="string">"&lt;%=</span></span><span class="ruby"> config.url </span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> /&gt;</span></span></div></pre></td></tr></table></figure>
-</li>
+<li>關於 停止HSTS自動跳轉 Chrome系統中 <code>chrome://net-internals/#hsts</code></li>
 </ul>
 </li>
 </ul>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></span></div><div class="line">    <span class="keyword">var</span> host = <span class="string">"domain.com"</span>;</div><div class="line">    <span class="keyword">if</span> ((host == <span class="built_in">window</span>.location.host) &amp;&amp; (<span class="built_in">window</span>.location.protocol != <span class="string">"https:"</span>))</div><div class="line">      <span class="built_in">window</span>.location.protocol = <span class="string">"https"</span>;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"canonical"</span> <span class="attr">href</span>=<span class="string">"&lt;%=</span></span><span class="ruby"> config.url </span><span class="xml"><span class="tag"><span class="string">%&gt;"</span> /&gt;</span></span></div></pre></td></tr></table></figure>
 <h1 id="2017-02-01"><a href="#2017-02-01" class="headerlink" title="2017-02-01"></a>2017-02-01</h1><ul>
 <li>開放 Update Log 頁面提交更新日誌</li>
 <li>增加 Sidebar 友情鏈接 Links，除去 TagCloud</li>
