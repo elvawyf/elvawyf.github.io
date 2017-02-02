@@ -4,9 +4,9 @@
   <subtitle>Elva Wang&#39;s Blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://elvawyf.com/"/>
+  <link href="https://elvawyf.com/"/>
   <updated>2017-02-01T13:12:05.000Z</updated>
-  <id>http://elvawyf.com/</id>
+  <id>https://elvawyf.com/</id>
   
   <author>
     <name>Elva Wang</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>New Year Revolution 2017</title>
-    <link href="http://elvawyf.com/2017/01/29/en/New-Year-Revolution/"/>
-    <id>http://elvawyf.com/2017/01/29/en/New-Year-Revolution/</id>
+    <link href="https://elvawyf.com/2017/01/29/en/New-Year-Revolution/"/>
+    <id>https://elvawyf.com/2017/01/29/en/New-Year-Revolution/</id>
     <published>2017-01-29T06:15:44.000Z</published>
     <updated>2017-02-01T13:12:05.000Z</updated>
     
@@ -51,14 +51,14 @@
     </summary>
     
     
-      <category term="Life" scheme="http://elvawyf.com/tags/Life/"/>
+      <category term="Life" scheme="https://elvawyf.com/tags/Life/"/>
     
   </entry>
   
   <entry>
     <title>ML Materials Collection</title>
-    <link href="http://elvawyf.com/2016/09/17/en/Materials/"/>
-    <id>http://elvawyf.com/2016/09/17/en/Materials/</id>
+    <link href="https://elvawyf.com/2016/09/17/en/Materials/"/>
+    <id>https://elvawyf.com/2016/09/17/en/Materials/</id>
     <published>2016-09-17T01:37:04.000Z</published>
     <updated>2017-02-01T09:05:27.000Z</updated>
     
@@ -209,17 +209,17 @@
     
     </summary>
     
-      <category term="Materials" scheme="http://elvawyf.com/categories/Materials/"/>
+      <category term="Materials" scheme="https://elvawyf.com/categories/Materials/"/>
     
     
-      <category term="Coding" scheme="http://elvawyf.com/tags/Coding/"/>
+      <category term="Coding" scheme="https://elvawyf.com/tags/Coding/"/>
     
   </entry>
   
   <entry>
     <title>HFT Review (in progress, updated on Jan31, 2017)</title>
-    <link href="http://elvawyf.com/2016/09/06/en/HFT-Review/"/>
-    <id>http://elvawyf.com/2016/09/06/en/HFT-Review/</id>
+    <link href="https://elvawyf.com/2016/09/06/en/HFT-Review/"/>
+    <id>https://elvawyf.com/2016/09/06/en/HFT-Review/</id>
     <published>2016-09-06T15:44:32.000Z</published>
     <updated>2017-01-31T03:14:16.000Z</updated>
     
@@ -299,19 +299,19 @@
     
     </summary>
     
-      <category term="Market Microstructure" scheme="http://elvawyf.com/categories/Market-Microstructure/"/>
+      <category term="Market Microstructure" scheme="https://elvawyf.com/categories/Market-Microstructure/"/>
     
     
-      <category term="HFT" scheme="http://elvawyf.com/tags/HFT/"/>
+      <category term="HFT" scheme="https://elvawyf.com/tags/HFT/"/>
     
-      <category term="Finance" scheme="http://elvawyf.com/tags/Finance/"/>
+      <category term="Finance" scheme="https://elvawyf.com/tags/Finance/"/>
     
   </entry>
   
   <entry>
     <title>StartUp2016</title>
-    <link href="http://elvawyf.com/2016/01/25/en/StartUp2016/"/>
-    <id>http://elvawyf.com/2016/01/25/en/StartUp2016/</id>
+    <link href="https://elvawyf.com/2016/01/25/en/StartUp2016/"/>
+    <id>https://elvawyf.com/2016/01/25/en/StartUp2016/</id>
     <published>2016-01-25T08:32:16.000Z</published>
     <updated>2017-02-01T07:53:31.000Z</updated>
     
