@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-02-06T03:32:33.000Z</updated>
+  <updated>2017-02-13T07:43:38.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://elvawyf.com/2017/01/29/en/New-Year-Resolution/"/>
     <id>http://elvawyf.com/2017/01/29/en/New-Year-Resolution/</id>
     <published>2017-01-29T19:15:44.000Z</published>
-    <updated>2017-02-06T03:32:33.000Z</updated>
+    <updated>2017-02-13T07:43:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦<a href="https://www.byvoid.com" target="_blank" rel="external">byvoid</a>的<a href="https://github.com/BYVoid/OpenCC" target="_blank" rel="external">OpenCC</a>，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在<a href="http://opencc.byvoid.com/" target="_blank" rel="external">開放中文在線轉換 Open Chinese Convert</a> 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="350" height="86" src="//music.163.com/outchain/player?type=2&id=18618005&auto=1&height=66"></iframe>
+
+<p>新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦<a href="https://www.byvoid.com" target="_blank" rel="external">byvoid</a>的<a href="https://github.com/BYVoid/OpenCC" target="_blank" rel="external">OpenCC</a>，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在<a href="http://opencc.byvoid.com/" target="_blank" rel="external">開放中文在線轉換 Open Chinese Convert</a> 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。</p>
 <h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><p>最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了<a href="https://www.cordonbleu.edu/home/en" target="_blank" rel="external">Le Cordon Bleu 法國藍帶</a>，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。</p>
 <p>剛開始我對鵝娘是沒什麼感覺的，因為對葡萄酒無感，在紅璽臺的時候曾經因為要辦紅酒雪茄吧，特意學了些酒的知識，跟臺灣一家接高端項目的廣告公司有過討論，雖然最終紅酒雪茄吧順利辦好了，但紅酒卻沒激起我的興趣。直到最近，去年經常去酒仙橋一家不錯的咖啡廳，沒錯就是“東隅domain”了，那裏似乎是很多商務和創投人偏好去的地方，因為每天準時到場開始做事，身邊聊到企鵝團和鵝娘的人就有好幾次，也見到過鵝娘本人來見朋友以及後來租場地辦活動。開始心生好奇，也經常會關註她的消息了。</p>
 <p>這幾天跟家人在一起，發現姐姐的喜馬拉雅裏保存了鵝娘，聽了幾集很是喜歡。她把葡萄酒講活了，講的系統有深度也很有趣，酸度、單寧和年份這些，每壹期都有讓人耳目一新的內容。仔細想想，她是<a href="http://www.brown.edu/" target="_blank" rel="external">布朗大學</a>歷史系畢業的，在法國藍帶修了葡萄酒管理，又曾經以紐約留學女身份做反諷視頻，三者結合的甚好。</p>
@@ -45,7 +47,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦&lt;a href=&quot;https://www.byvoid.com&quot;&gt;byvoid&lt;/a&gt;的&lt;a href=&quot;https://github.com/BYVoid/OpenCC&quot;&gt;OpenCC&lt;/a&gt;，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在&lt;a href=&quot;http://opencc.byvoid.com/&quot;&gt;開放中文在線轉換 Open Chinese Convert&lt;/a&gt; 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。&lt;/p&gt;
+      &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=350 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=18618005&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦&lt;a href=&quot;https://www.byvoid.com&quot;&gt;byvoid&lt;/a&gt;的&lt;a href=&quot;https://github.com/BYVoid/OpenCC&quot;&gt;OpenCC&lt;/a&gt;，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在&lt;a href=&quot;http://opencc.byvoid.com/&quot;&gt;開放中文在線轉換 Open Chinese Convert&lt;/a&gt; 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。&lt;/p&gt;
 &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
     
     </summary>
@@ -62,7 +66,7 @@
     <published>2016-09-17T13:37:04.000Z</published>
     <updated>2017-02-02T07:01:09.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Notes: Learning Materials</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Notes: Learning Materials</p>
 <a id="more"></a>
 <hr>
 <h1 id="Self-driving-Car"><a href="#Self-driving-Car" class="headerlink" title="Self-driving Car"></a>Self-driving Car</h1><h3 id="Center-for-Automotive-Research-at-Stanford"><a href="#Center-for-Automotive-Research-at-Stanford" class="headerlink" title="Center for Automotive Research at Stanford"></a>Center for Automotive Research at Stanford</h3><ul>
@@ -226,7 +230,7 @@
     <published>2016-09-07T03:44:32.000Z</published>
     <updated>2017-01-31T03:14:16.000Z</updated>
     
-    <content type="html"><![CDATA[<p>今天跟一個同學討論起高頻的事，想借機會寫個粗淺的心得吧，並不涉及實際執行時的策略細節。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>今天跟一個同學討論起高頻的事，想借機會寫個粗淺的心得吧，並不涉及實際執行時的策略細節。</p>
 <p>內容會在一段時間內持續更新修改，完成時除去<code>in progress</code>標記。</p>
 <a id="more"></a>
 <hr>
@@ -316,9 +320,11 @@
     <link href="http://elvawyf.com/2016/01/25/en/StartUp2016/"/>
     <id>http://elvawyf.com/2016/01/25/en/StartUp2016/</id>
     <published>2016-01-25T21:32:16.000Z</published>
-    <updated>2017-02-08T03:44:10.000Z</updated>
+    <updated>2017-02-13T07:45:42.000Z</updated>
     
-    <content type="html"><![CDATA[<p>有些突兀，曾經刻意擱置下的寫博客的習慣重新拾起。雖然最近連續經歷階段性里程，多了卻也覺得不深不淺，但今天有些意料之外的變故，像是導火索，決定提筆了。也許此篇並不會公開太久，若屏幕前的你恰好看到，算是緣分。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=3993991&auto=1&height=66"></iframe>
+
+<p>有些突兀，曾經刻意擱置下的寫博客的習慣重新拾起。雖然最近連續經歷階段性里程，多了卻也覺得不深不淺，但今天有些意料之外的變故，像是導火索，決定提筆了。也許此篇並不會公開太久，若屏幕前的你恰好看到，算是緣分。</p>
 <p>個人認爲，每個人都會經歷一些與衆不同，這些經歷塑造出一種獨特。對我而言，因爲一些無可奈何的事，讓我在成人禮之後基本無法找到與我相同路徑的人，但是略顯古怪的經歷反而形成一種靠直覺來某事的習慣。本打算倒敘來講，但發現太難。</p>
 <p>一點歷久彌新的小事，絮絮叨叨。</p>
 <a id="more"></a>
@@ -354,7 +360,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;有些突兀，曾經刻意擱置下的寫博客的習慣重新拾起。雖然最近連續經歷階段性里程，多了卻也覺得不深不淺，但今天有些意料之外的變故，像是導火索，決定提筆了。也許此篇並不會公開太久，若屏幕前的你恰好看到，算是緣分。&lt;/p&gt;
+      &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=3993991&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;有些突兀，曾經刻意擱置下的寫博客的習慣重新拾起。雖然最近連續經歷階段性里程，多了卻也覺得不深不淺，但今天有些意料之外的變故，像是導火索，決定提筆了。也許此篇並不會公開太久，若屏幕前的你恰好看到，算是緣分。&lt;/p&gt;
 &lt;p&gt;個人認爲，每個人都會經歷一些與衆不同，這些經歷塑造出一種獨特。對我而言，因爲一些無可奈何的事，讓我在成人禮之後基本無法找到與我相同路徑的人，但是略顯古怪的經歷反而形成一種靠直覺來某事的習慣。本打算倒敘來講，但發現太難。&lt;/p&gt;
 &lt;p&gt;一點歷久彌新的小事，絮絮叨叨。&lt;/p&gt;
     
