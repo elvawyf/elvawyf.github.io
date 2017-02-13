@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-02-13T08:03:11.000Z</updated>
+  <updated>2017-02-13T08:06:57.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -20,22 +20,23 @@
     <link href="http://elvawyf.com/2017/01/29/en/New-Year-Resolution/"/>
     <id>http://elvawyf.com/2017/01/29/en/New-Year-Resolution/</id>
     <published>2017-01-29T19:15:44.000Z</published>
-    <updated>2017-02-13T08:03:11.000Z</updated>
+    <updated>2017-02-13T08:06:57.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="350" height="86" src="//music.163.com/outchain/player?type=2&id=18618005&auto=1&height=66"></iframe>
 
-<h3 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h3><p>新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦<a href="https://www.byvoid.com" target="_blank" rel="external">byvoid</a>的<a href="https://github.com/BYVoid/OpenCC" target="_blank" rel="external">OpenCC</a>，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在<a href="http://opencc.byvoid.com/" target="_blank" rel="external">開放中文在線轉換 Open Chinese Convert</a> 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。</p>
-<p>最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了<a href="https://www.cordonbleu.edu/home/en" target="_blank" rel="external">Le Cordon Bleu 法國藍帶</a>，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。</p>
+
+<p>新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦<a href="https://www.byvoid.com" target="_blank" rel="external">byvoid</a>的<a href="https://github.com/BYVoid/OpenCC" target="_blank" rel="external">OpenCC</a>，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在<a href="http://opencc.byvoid.com/" target="_blank" rel="external">開放中文在線轉換 Open Chinese Convert</a> 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。</p>
+<h3 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h3><p>最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了<a href="https://www.cordonbleu.edu/home/en" target="_blank" rel="external">Le Cordon Bleu 法國藍帶</a>，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。</p>
 <p>剛開始我對鵝娘是沒什麼感覺的，因為對葡萄酒無感，在紅璽臺的時候曾經因為要辦紅酒雪茄吧，特意學了些酒的知識，跟臺灣一家接高端項目的廣告公司有過討論，雖然最終紅酒雪茄吧順利辦好了，但紅酒卻沒激起我的興趣。直到最近，去年經常去酒仙橋一家不錯的咖啡廳，沒錯就是“東隅domain”了，那裏似乎是很多商務和創投人偏好去的地方，因為每天準時到場開始做事，身邊聊到企鵝團和鵝娘的人就有好幾次，也見到過鵝娘本人來見朋友以及後來租場地辦活動。開始心生好奇，也經常會關註她的消息了。</p>
 <p>這幾天跟家人在一起，發現姐姐的喜馬拉雅裏保存了鵝娘，聽了幾集很是喜歡。她把葡萄酒講活了，講的系統有深度也很有趣，酸度、單寧和年份這些，每壹期都有讓人耳目一新的內容。仔細想想，她是<a href="http://www.brown.edu/" target="_blank" rel="external">布朗大學</a>歷史系畢業的，在法國藍帶修了葡萄酒管理，又曾經以紐約留學女身份做反諷視頻，三者結合的甚好。</p>
 <p>而後我就在反思，自己學了很多東西，在舞蹈策劃金融互聯網有很多有意思的經歷，卻還沒有深入的做出一個產品，很好奇也很期待自己會最終做到些什麼有點意思的事情。在鍵盤上敲打的時候，收到了期待已久的“機器之心”的回復，從大年初一早上開始，最近幾天大概會陸續完成on-boarding的工作，希望今年好好研學AI，多寫點好的review出來。</p>
 <a id="more"></a>
-<h3 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h3><p>上一次認真的寫文章，是2016年1月25日在<a href="https://zh.wikipedia.org/wiki/%E8%88%8A%E9%87%91%E5%B1%B1%E7%81%A3%E5%8D%80" target="_blank" rel="external">灣區</a>，剛好一年時間，起因是國內的創業團隊經歷變動，創始人兼CTO據說被董事會請出局，作為一個剛開始加入初創團隊的我，那時對創投圈認知度幾乎為零，經歷這種事是有些震驚的（最近才發現問題遠比想象的複雜，貓膩甚多，並非表象看起來的那般直接），當時對於我，也像是觸動了回憶的神經，於是驚坐起，寫了那麼一篇自己的記錄。</p>
+<h3 id="這一年"><a href="#這一年" class="headerlink" title="這一年"></a>這一年</h3><p>上一次認真的寫文章，是2016年1月25日在<a href="https://zh.wikipedia.org/wiki/%E8%88%8A%E9%87%91%E5%B1%B1%E7%81%A3%E5%8D%80" target="_blank" rel="external">灣區</a>，剛好一年時間，起因是國內的創業團隊經歷變動，創始人兼CTO據說被董事會請出局，作為一個剛開始加入初創團隊的我，那時對創投圈認知度幾乎為零，經歷這種事是有些震驚的（最近才發現問題遠比想象的複雜，貓膩甚多，並非表象看起來的那般直接），當時對於我，也像是觸動了回憶的神經，於是驚坐起，寫了那麼一篇自己的記錄。</p>
 <p>猴年的確是上躥下跳，從決定暫時放棄讀書加入團隊，作為先批部隊轉移到廈門，也從寫交易策略開始被迫轉向跟著創始人一起見股東和投資人，當然，走的越近暴露的問題也是越多。從產品到團隊到領導人，問題眾多。產品方面，比如R這種統計語言用作工程開發，對於R語言不甚了解的人不懂得用apply這個function是很自然的事，對算法了解不深的人只會使用for循環也是很自然的事，然而對於R語言來說，一個for循環就會將CPU全部佔滿。這種情況在以前，都是我沒有發現的問題。可想而知，使用R語言搭建基礎平台，橫向擴展度就會變得很差，因為服務器難以承載大量不夠專業的客戶在策略中無意識的使用for循環。而以Python為基礎平台的產品則完全不同，Python本身已經有極多可使用的產品，比如Jupiter和iPython，在可視化和可移植性方面已經做得不錯。然而，問題出在這裡，卻沒有得到很好的解決。團隊是很優秀的，但是領導人打了一手爛牌，細節不再贅述，總之團隊在A輪融資的幾個月以後便成四散狀，有人去了<a href="https://www.ricequant.com/" target="_blank" rel="external">RiceQuant</a> 米匡，有人去了德國，有人去了其他私募等等。</p>
 <p>我回京開始論文和重新申請，中間在Udacity得到Code Reviewer的工作，開始給學生批機器學習的作業，認識些編程高手，還試著搞了API和這個GitHub的小博客。寫論文的過程中，自己搞了高頻數據開始做交易，那段日子異常辛苦，一天三次開盤測策略，停盤時間做策略改寫和拓展。經常晚上十點獨自一人聽著咖啡廳的音樂，在電腦前看著他們用正常交易水平的兩個量級的單子砸盤，從委託單里挨個找問題和規律。凌晨五點半起床到工作的地方，寫論文跑數據，因為執意要寫微觀市場，以前寫好的策略都是R語言（沒改Python的確是我不對），每次跑起幾個GB的數據都要祈禱電腦別掛，每次跟導師通email，我都感覺自己處在崩潰的邊緣。不過最終雖然策略沒有賺到什麼，但是兩篇論文的結果還是不錯的，算是值得。弄完論文，還順便申請了幾個Remote的工作，但包括Amara在內，都稱不上喜歡。</p>
 <p>在Udacity做Reviewer的過程中，有些有意思的經歷，先是開始用Slack，這個產品從功能和細節上來講都很貼心，十分適合技術類創業團隊；接著就是九月份聽說灣區總部買了一輛自動駕駛車，畢業生的畢設算法直接導入車里上路，我當然得申請了！然後，國慶假期的時候就進了Dec12 Cohort。之後進入馬連窪，開始逗比一樣的開心備考GRE狀態，中間有段苦逼的日子沒有寫，是因為我覺得吐槽苦逼是沒有任何意義的，因為那段不願提起的日子，才會有了之後的很多選擇。</p>
 <!-- more -->
-<h3 id="心愿"><a href="#心愿" class="headerlink" title="心愿"></a>心愿</h3><p>今年，在<a href="https://www.syncedreview.com/" target="_blank" rel="external">機器之心</a>撰写文章、学<a href="https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013" target="_blank" rel="external">Self-Driving Car</a>(CarND)，還有等待三月的消息是雞年的主線，總結下：</p>
+<h3 id="心願"><a href="#心願" class="headerlink" title="心願"></a>心願</h3><p>今年，在<a href="https://www.syncedreview.com/" target="_blank" rel="external">機器之心</a>撰写文章、学<a href="https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013" target="_blank" rel="external">Self-Driving Car</a>(CarND)，還有等待三月的消息是雞年的主線，總結下：</p>
 <ol>
 <li>語言成績刷到想要的分數</li>
 <li>CarND的3個學期學完</li>
@@ -51,8 +52,9 @@
     
       &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=350 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=18618005&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot; title=&quot;引子&quot;&gt;&lt;/a&gt;引子&lt;/h3&gt;&lt;p&gt;新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦&lt;a href=&quot;https://www.byvoid.com&quot;&gt;byvoid&lt;/a&gt;的&lt;a href=&quot;https://github.com/BYVoid/OpenCC&quot;&gt;OpenCC&lt;/a&gt;，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在&lt;a href=&quot;http://opencc.byvoid.com/&quot;&gt;開放中文在線轉換 Open Chinese Convert&lt;/a&gt; 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。&lt;/p&gt;
-&lt;p&gt;最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了&lt;a href=&quot;https://www.cordonbleu.edu/home/en&quot;&gt;Le Cordon Bleu 法國藍帶&lt;/a&gt;，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。&lt;/p&gt;
+
+&lt;p&gt;新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦&lt;a href=&quot;https://www.byvoid.com&quot;&gt;byvoid&lt;/a&gt;的&lt;a href=&quot;https://github.com/BYVoid/OpenCC&quot;&gt;OpenCC&lt;/a&gt;，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在&lt;a href=&quot;http://opencc.byvoid.com/&quot;&gt;開放中文在線轉換 Open Chinese Convert&lt;/a&gt; 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。&lt;/p&gt;
+&lt;h3 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot; title=&quot;引子&quot;&gt;&lt;/a&gt;引子&lt;/h3&gt;&lt;p&gt;最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了&lt;a href=&quot;https://www.cordonbleu.edu/home/en&quot;&gt;Le Cordon Bleu 法國藍帶&lt;/a&gt;，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。&lt;/p&gt;
 &lt;p&gt;剛開始我對鵝娘是沒什麼感覺的，因為對葡萄酒無感，在紅璽臺的時候曾經因為要辦紅酒雪茄吧，特意學了些酒的知識，跟臺灣一家接高端項目的廣告公司有過討論，雖然最終紅酒雪茄吧順利辦好了，但紅酒卻沒激起我的興趣。直到最近，去年經常去酒仙橋一家不錯的咖啡廳，沒錯就是“東隅domain”了，那裏似乎是很多商務和創投人偏好去的地方，因為每天準時到場開始做事，身邊聊到企鵝團和鵝娘的人就有好幾次，也見到過鵝娘本人來見朋友以及後來租場地辦活動。開始心生好奇，也經常會關註她的消息了。&lt;/p&gt;
 &lt;p&gt;這幾天跟家人在一起，發現姐姐的喜馬拉雅裏保存了鵝娘，聽了幾集很是喜歡。她把葡萄酒講活了，講的系統有深度也很有趣，酸度、單寧和年份這些，每壹期都有讓人耳目一新的內容。仔細想想，她是&lt;a href=&quot;http://www.brown.edu/&quot;&gt;布朗大學&lt;/a&gt;歷史系畢業的，在法國藍帶修了葡萄酒管理，又曾經以紐約留學女身份做反諷視頻，三者結合的甚好。&lt;/p&gt;
 &lt;p&gt;而後我就在反思，自己學了很多東西，在舞蹈策劃金融互聯網有很多有意思的經歷，卻還沒有深入的做出一個產品，很好奇也很期待自己會最終做到些什麼有點意思的事情。在鍵盤上敲打的時候，收到了期待已久的“機器之心”的回復，從大年初一早上開始，最近幾天大概會陸續完成on-boarding的工作，希望今年好好研學AI，多寫點好的review出來。&lt;/p&gt;
