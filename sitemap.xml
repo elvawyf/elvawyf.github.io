@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://elvawyf.com/esc/index.html</loc>
+    
+    <lastmod>2017-02-28T14:05:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://elvawyf.com/updatelog/index.html</loc>
     
     <lastmod>2017-02-28T14:03:12.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://elvawyf.com/about/index.html</loc>
     
     <lastmod>2017-02-28T13:58:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://elvawyf.com/esc/index.html</loc>
-    
-    <lastmod>2017-02-28T13:54:57.000Z</lastmod>
     
   </url>
   
