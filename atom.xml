@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-02-13T08:39:18.000Z</updated>
+  <updated>2017-05-04T14:06:13.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>post</title>
+    <link href="http://elvawyf.com/2017/05/04/en/post/"/>
+    <id>http://elvawyf.com/2017/05/04/en/post/</id>
+    <published>2017-05-03T23:06:13.000Z</published>
+    <updated>2017-05-04T14:06:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>page</title>
+    <link href="http://elvawyf.com/2017/04/30/en/page/"/>
+    <id>http://elvawyf.com/2017/04/30/en/page/</id>
+    <published>2017-04-30T04:56:25.000Z</published>
+    <updated>2017-04-30T04:56:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>New Year&#39;s Resolution 2017</title>
