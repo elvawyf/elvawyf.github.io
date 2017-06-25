@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Elva Wang</title>
-  <subtitle>Elva Wang&#39;s Blog</subtitle>
+  <title>Eva&#39;s Travelogue</title>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
@@ -9,7 +9,7 @@
   <id>http://elvawyf.com/</id>
   
   <author>
-    <name>Elva Wang</name>
+    <name>Eva Wang</name>
     <email>elvawyf@elvawyf.com</email>
   </author>
   
