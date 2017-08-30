@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Eva W.</title>
-  <subtitle>Eva Wang (under construction...)</subtitle>
+  <subtitle>Eva Wang</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
@@ -262,11 +262,11 @@
   </entry>
   
   <entry>
-    <title>HFT Review (in progress, updated on Jan31, 2017)</title>
+    <title>HFT Review</title>
     <link href="http://elvawyf.com/2016/09/06/en/HFT-Review/"/>
     <id>http://elvawyf.com/2016/09/06/en/HFT-Review/</id>
     <published>2016-09-06T15:44:32.000Z</published>
-    <updated>2017-08-30T16:04:42.000Z</updated>
+    <updated>2017-08-30T20:15:00.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>今天跟一個同學討論起高頻的事，想借機會寫個粗淺的心得吧，並不涉及實際執行時的策略細節。</p>
 <p>內容會在一段時間內持續更新修改，完成時除去<code>in progress</code>標記。</p>
