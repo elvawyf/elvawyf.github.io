@@ -554,6 +554,9 @@
 .fa-bar-chart:before {
   content: "\f080";
 }
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
 .fa-twitter-square:before {
   content: "\f081";
 }
@@ -1299,6 +1302,9 @@
 }
 .fa-weibo:before {
   content: "\f18a";
+}
+.fa-envelope:before {
+  content: "\f0e0";
 }
 .fa-renren:before {
   content: "\f18b";
