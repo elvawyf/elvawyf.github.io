@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Eva W.</title>
-  <subtitle>Eva Wang&#39;s Blog</subtitle>
+  <subtitle>Eva Wang</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-08-30T15:56:02.000Z</updated>
+  <updated>2017-08-30T19:54:12.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Monte Carlo Localization - Efficient Position Estimation for Mobile Robots</title>
+    <link href="http://elvawyf.com/2017/02/23/en/Monte-Carlo-Localization/"/>
+    <id>http://elvawyf.com/2017/02/23/en/Monte-Carlo-Localization/</id>
+    <published>2017-02-22T19:49:45.000Z</published>
+    <updated>2017-08-30T19:54:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Synced Review Link: <a href="https://syncedreview.com/2017/02/22/monte-carlo-localization-efficient-position-estimation-for-mobile-robots/" target="_blank" rel="external">https://syncedreview.com/2017/02/22/monte-carlo-localization-efficient-position-estimation-for-mobile-robots/</a></p>
+<h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>Monte Carlo Localization uses randomized samples to represent a robot’s belief about its location in an environment and is notable for its accuracy, efficiency, and ease of use compared to previous approaches. MCL was first presented in 1999 at the International Conference on Robotics and Automation and was the first application of sample-based estimation in robotics, where it is now used across a wide range of application.</p>
+<p>The new sample-based Monte Carlo Localization (MCL) is computationally efficient while retaining the ability to represent arbitrary distributions. The MCL applied the sample-based methods for approximating probability distributions employed by the number of samples is adapted on-line, thereby invoking the sample sets dynamic and necessary, which the grid-based approached that represented computationally cumbersome by 3D grids failed to achieve.</p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In mobile robot applications, the sensor-based location has been recognized as a key problem. Localization is a version of on-line spatial state estimation, where a mobile robot seeks to estimate its position in a global coordinate frame. The localization problem comes in two flavors: global localizaion and position tracking. The paper indicates that the global localization problem is difficult to solve because it involves a robot which is not told its initial position; the position tracking problem is the most-studied problem that a robot knows its initial position and only has to accommodate small errors as it moves.</p>
+<p>The existing approaches to robot localization include Markov localization, Kalman Filtering, Particle Filtering, SLAM (Simultaneous localization and mapping), and Multi-robot localization.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Synced Review Link: &lt;a href=&quot;https://syncedreview.com/2017/02/22/monte-carlo-localizati
+    
+    </summary>
+    
+      <category term="Review" scheme="http://elvawyf.com/categories/Review/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>New Year&#39;s Resolution 2017</title>
@@ -77,7 +102,7 @@
     <link href="http://elvawyf.com/2016/09/17/en/Materials/"/>
     <id>http://elvawyf.com/2016/09/17/en/Materials/</id>
     <published>2016-09-17T01:37:04.000Z</published>
-    <updated>2017-08-30T15:55:12.000Z</updated>
+    <updated>2017-08-30T20:03:31.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Notes: Learning Materials</p>
 <a id="more"></a>
@@ -229,7 +254,7 @@
     
     </summary>
     
-      <category term="Document" scheme="http://elvawyf.com/categories/Document/"/>
+      <category term="Fav &amp; Doc" scheme="http://elvawyf.com/categories/Fav-Doc/"/>
     
     
       <category term="Self-Driving Car" scheme="http://elvawyf.com/tags/Self-Driving-Car/"/>
@@ -387,6 +412,29 @@
     
     
       <category term="Start-up" scheme="http://elvawyf.com/tags/Start-up/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order</title>
+    <link href="http://elvawyf.com/2015/09/15/en/High-Frequency-Trading-and-Algorithmic-Trading-inDynamic-Limit-Order/"/>
+    <id>http://elvawyf.com/2015/09/15/en/High-Frequency-Trading-and-Algorithmic-Trading-inDynamic-Limit-Order/</id>
+    <published>2015-09-14T19:57:33.000Z</published>
+    <updated>2017-08-30T19:58:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In the high-frequency trading, the market maker faces an inventory risk due to the di↵usive nature of the<br>stocks mid-price and a transactions risk due to a Poisson arrival of market buy and sell order.<br>Studies of the mechanisms involved in trading financial assets have traditionally focused on quote-driven<br>markets, where a market maker or dealer centralizes buy and sell orders and provides liquidity by setting<br>bid and ask quotes, and an alternative order-driven trading system. The dynamics of a limit order book<br>resembles in many aspects that of a queuing system. Limit orders wait in a queue to be executed against<br>market orders (or canceled).</p>
+<p>An important motivation for modelling high-frequency dynamics of order books is to use the information<br>on the current state of the order book to predict its short-term behavior. Therefore, focus on conditional<br>probabilities of events, given the state of the order book.<br>In this project, I replicate the simulation of the high-frequency trading in a limit order book, (Avellaneda<br>and Stoikov 2006) as understanding process for the mechanism of market making inventory strategy, and<br>further consider the stochastic model for order book dynamics (Cont, Stoikov and Talreja 2009).<br>Then, focus on the e↵ective of the mid-price trend prediction and the liquidity parameter of Poisson process.<br>In practical, calculate out the signals by moving average, realized volatility for order risk management,<br>and applicate statistical methods confirm the dynamic spreads and the cancellations.</p>
+<h3 id="Inventory-Strategy"><a href="#Inventory-Strategy" class="headerlink" title="Inventory Strategy"></a>Inventory Strategy</h3><p>Simplicity the limit order book for understanding the inventory control mechanism. This part of objective<br>is to replicate the Avellaneda and Stoikov (2009). The solution in a two step procedure:<br>First, the dealer computes a personal indi↵erence valuation given specific personal inventory.<br>Second, calculate the bid and ask quotes to the market limit order book.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;
+    
+    </summary>
+    
+      <category term="Projects" scheme="http://elvawyf.com/categories/Projects/"/>
+    
     
   </entry>
   
