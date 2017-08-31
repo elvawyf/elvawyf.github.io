@@ -98,6 +98,27 @@
   </entry>
   
   <entry>
+    <title>ACD-GARCH</title>
+    <link href="http://elvawyf.com/2016/11/12/en/ACD-GARCH/"/>
+    <id>http://elvawyf.com/2016/11/12/en/ACD-GARCH/</id>
+    <published>2016-11-12T13:27:15.000Z</published>
+    <updated>2017-08-31T13:29:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Modeling and predict volatilities in irregularly spaced high-frequency financial data by the Autoregressive Conditional Duration combined with Generalized Autoregressive Conditional Heteroscedasticity model (ACD-GARCH).</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Modeling and predict volatilities in irregularly spaced high-frequency financial data b
+    
+    </summary>
+    
+      <category term="Projects" scheme="http://elvawyf.com/categories/Projects/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>ML Materials Collection</title>
     <link href="http://elvawyf.com/2016/09/17/en/Materials/"/>
     <id>http://elvawyf.com/2016/09/17/en/Materials/</id>
