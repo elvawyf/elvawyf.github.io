@@ -274,14 +274,14 @@ code {
 .logo {
   display: block;
   padding: 10px 0;
-  width: 165px;
+  width: 60px;
   height: 60px;
-  background-image: url("icon/favicon.png");
+  background-image: url("");
   background-position: 0px 10px;
   background-repeat: no-repeat;
-  -webkit-background-size: 165px 60px;
-  -moz-background-size: 165px 60px;
-  background-size: 165px 60px;
+  -webkit-background-size: 60px 60px;
+  -moz-background-size: 60px 60px;
+  background-size: 60px 60px;
 }
 .main-body {
   margin-top: -60px;
@@ -1644,11 +1644,11 @@ a.article-title:hover {
   line-height: 22px;
 }
 #footer .logo {
-  width: 132px;
+  width: 48px;
   height: 48px;
-  -webkit-background-size: 132px 48px;
-  -moz-background-size: 132px 48px;
-  background-size: 132px 48px;
+  -webkit-background-size: 48px 48px;
+  -moz-background-size: 48px 48px;
+  background-size: 48px 48px;
 }
 i.icon {
   display: inline-block;
@@ -1829,52 +1829,52 @@ i.icon:before {
   height: 1.6em;
 }
 .highlight {
-  color: #a9b7c6;
-  background: #282b2e;
-}
-.highlight .code .number,
-.highlight .code .literal,
-.highlight .code .symbol,
-.highlight .code .bullet {
-  color: #6897bb;
+  color: #ddd;
+  background: #444;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag,
-.highlight .code .deletion {
-  color: #cc7832;
-}
-.highlight .code .variable,
-.highlight .code .template-variable,
+.highlight .code .literal,
+.highlight .code .section,
 .highlight .code .link {
-  color: #629755;
+  color: #fff;
 }
-.highlight .code .comment,
-.highlight .code .quote {
-  color: #808080;
-}
-.highlight .code .meta {
-  color: #bbb529;
+.highlight .code .subst {
+  color: #ddd;
 }
 .highlight .code .string,
-.highlight .code .attribute,
-.highlight .code .addition {
-  color: #6a8759;
-}
-.highlight .code .section,
 .highlight .code .title,
-.highlight .code .type {
-  color: #ffc66d;
-}
 .highlight .code .name,
-.highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #e8bf6a;
+.highlight .code .type,
+.highlight .code .attribute,
+.highlight .code .symbol,
+.highlight .code .bullet,
+.highlight .code .built_in,
+.highlight .code .addition,
+.highlight .code .variable,
+.highlight .code .template-tag,
+.highlight .code .template-variable {
+  color: #d88;
+}
+.highlight .code .comment,
+.highlight .code .quote,
+.highlight .code .deletion,
+.highlight .code .meta {
+  color: #777;
+}
+.highlight .code .keyword,
+.highlight .code .selector-tag,
+.highlight .code .literal,
+.highlight .code .title,
+.highlight .code .section,
+.highlight .code .doctag,
+.highlight .code .type,
+.highlight .code .name,
+.highlight .code .strong {
+  font-weight: bold;
 }
 .highlight .code .emphasis {
   font-style: italic;
-}
-.highlight .code .strong {
-  font-weight: bold;
 }
 @media only screen and (min-width: 960px) {
   .nav-container-inner {
