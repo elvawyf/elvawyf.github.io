@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-08-30T19:54:12.000Z</updated>
+  <updated>2017-09-03T03:17:27.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -16,9 +16,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>tes1</title>
+    <link href="http://elvawyf.com/2017/0903/tes1/"/>
+    <id>http://elvawyf.com/2017/0903/tes1/</id>
+    <published>2017-09-03T03:17:27.000Z</published>
+    <updated>2017-09-03T03:17:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>tes1</title>
+    <link href="http://elvawyf.com/2017/0903/tes1/"/>
+    <id>http://elvawyf.com/2017/0903/tes1/</id>
+    <published>2017-09-03T03:15:42.000Z</published>
+    <updated>2017-09-03T03:15:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://elvawyf.com/2017/0903/test/"/>
+    <id>http://elvawyf.com/2017/0903/test/</id>
+    <published>2017-09-03T03:15:02.000Z</published>
+    <updated>2017-09-03T03:15:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Monte Carlo Localization - Efficient Position Estimation for Mobile Robots</title>
-    <link href="http://elvawyf.com/2017/02/23/en/Monte-Carlo-Localization/"/>
-    <id>http://elvawyf.com/2017/02/23/en/Monte-Carlo-Localization/</id>
+    <link href="http://elvawyf.com/2017/0223/Monte-Carlo-Localization/"/>
+    <id>http://elvawyf.com/2017/0223/Monte-Carlo-Localization/</id>
     <published>2017-02-22T19:49:45.000Z</published>
     <updated>2017-08-30T19:54:12.000Z</updated>
     
@@ -42,8 +96,8 @@
   
   <entry>
     <title>New Year&#39;s Resolution 2017</title>
-    <link href="http://elvawyf.com/2017/01/29/en/New-Year-Resolution/"/>
-    <id>http://elvawyf.com/2017/01/29/en/New-Year-Resolution/</id>
+    <link href="http://elvawyf.com/2017/0129/New-Year-Resolution/"/>
+    <id>http://elvawyf.com/2017/0129/New-Year-Resolution/</id>
     <published>2017-01-29T06:15:44.000Z</published>
     <updated>2017-08-30T15:56:02.000Z</updated>
     
@@ -99,8 +153,8 @@
   
   <entry>
     <title>ACD-GARCH</title>
-    <link href="http://elvawyf.com/2016/11/12/en/ACD-GARCH/"/>
-    <id>http://elvawyf.com/2016/11/12/en/ACD-GARCH/</id>
+    <link href="http://elvawyf.com/2016/1112/ACD-GARCH/"/>
+    <id>http://elvawyf.com/2016/1112/ACD-GARCH/</id>
     <published>2016-11-12T13:27:15.000Z</published>
     <updated>2017-08-31T13:29:25.000Z</updated>
     
@@ -120,8 +174,8 @@
   
   <entry>
     <title>ML Materials Collection</title>
-    <link href="http://elvawyf.com/2016/09/17/en/Materials/"/>
-    <id>http://elvawyf.com/2016/09/17/en/Materials/</id>
+    <link href="http://elvawyf.com/2016/0917/Materials/"/>
+    <id>http://elvawyf.com/2016/0917/Materials/</id>
     <published>2016-09-17T01:37:04.000Z</published>
     <updated>2017-08-30T20:03:31.000Z</updated>
     
@@ -284,8 +338,8 @@
   
   <entry>
     <title>HFT Review</title>
-    <link href="http://elvawyf.com/2016/09/06/en/HFT-Review/"/>
-    <id>http://elvawyf.com/2016/09/06/en/HFT-Review/</id>
+    <link href="http://elvawyf.com/2016/0906/HFT-Review/"/>
+    <id>http://elvawyf.com/2016/0906/HFT-Review/</id>
     <published>2016-09-06T15:44:32.000Z</published>
     <updated>2017-08-30T20:15:00.000Z</updated>
     
@@ -374,8 +428,8 @@
   
   <entry>
     <title>StartUp 2016</title>
-    <link href="http://elvawyf.com/2016/01/25/en/StartUp2016/"/>
-    <id>http://elvawyf.com/2016/01/25/en/StartUp2016/</id>
+    <link href="http://elvawyf.com/2016/0125/StartUp2016/"/>
+    <id>http://elvawyf.com/2016/0125/StartUp2016/</id>
     <published>2016-01-25T08:32:16.000Z</published>
     <updated>2017-08-30T15:55:48.000Z</updated>
     
@@ -438,8 +492,8 @@
   
   <entry>
     <title>High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order</title>
-    <link href="http://elvawyf.com/2015/09/15/en/HFT-in-Dynamic-Limit-Order/"/>
-    <id>http://elvawyf.com/2015/09/15/en/HFT-in-Dynamic-Limit-Order/</id>
+    <link href="http://elvawyf.com/2015/0915/HFT-in-Dynamic-Limit-Order/"/>
+    <id>http://elvawyf.com/2015/0915/HFT-in-Dynamic-Limit-Order/</id>
     <published>2015-09-14T19:57:33.000Z</published>
     <updated>2017-09-03T03:08:38.000Z</updated>
     
@@ -455,47 +509,6 @@
     </summary>
     
       <category term="Research &amp; Projects" scheme="http://elvawyf.com/categories/Research-Projects/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Modeling Default Probability in SMEs</title>
-    <link href="http://elvawyf.com/2015/03/30/en/Stats243/"/>
-    <id>http://elvawyf.com/2015/03/30/en/Stats243/</id>
-    <published>2015-03-30T07:11:30.000Z</published>
-    <updated>2017-08-30T16:04:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><em>STATS 243 Project</em></p>
-<p>The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data variables of SMEs datasets can be coverage to financial ratios, which have been used to analyze and predict firm bankruptcies. Altman (2001) developed a Z-score that is useful in predicting firm bankruptcies (a low score indicates high probability of failure). The predictive model was based on a firm’s working capital to assets, retained earnings to assets, EBIT to assets, market to book value of a share of stock, and revenues to assets.<br>In this project, I choice alternative approach. The goal is to find related variables and predict the failure risk of each individual in the testing set based on the various models, such as logistic regression and dynamic EB via GLMM discussed in Lai, Su and Sun (2014). To develops the specific model to estimate one-year SME probability of default, and illustrate the steps of my analysis and compare the results obtained using di↵erent statistical instruments.</p>
-<a id="more"></a>
-<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><p>The SME datasets for n = 46595 record data (omitted the Na observations) included 1226 companies from 1994/01/31 to 2014/11/30 quarterly data, which is 20 years, 84-period observations per company if the company are still active.<br>In this case, set the training set t = 80, the last 4 periods (1 year) data set to be the testing set. Because, the interest will be adjusted per year generally. In addition, for forecasting more accurately in the k-step ahead predictions, k should be limited.</p>
-<h2 id="Features-and-Preprocessing"><a href="#Features-and-Preprocessing" class="headerlink" title="Features and Preprocessing"></a>Features and Preprocessing</h2><p>The variables in SME dataset are in the Table 1, included 19 financial data. Summary the SME data and check the quantile, for getting the first intuitive un- derstanding. For further process the SME datasets to be longitudinal and cross- sectional, converge the date to period t = 1, 2, …, 84 for specific company.<br>The Table 2. quantile of SME variables shows that the financial status of 1226 companies in the 20 years are complex.</p>
-<h2 id="Logistic-Regression-Model"><a href="#Logistic-Regression-Model" class="headerlink" title="Logistic Regression Model"></a>Logistic Regression Model</h2><p>\[\begin{equation}<br> Pr(I=1|\mathbf{x}=\mathbf{x})<br>      = \frac{\pi \exp{-d_1(\mathbf{x})/2}}<br>             {\pi \exp{-d_1(\mathbf{x})/2} + (1-\pi)\exp{-d_0(\mathbf{x})/2}    }<br>      = \frac{1}{1+e^{-s(\mathbf{x})}}    \notag<br>\end{equation} \] </p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><p>Tze Leung Lai, Haipeng Xing (2008) Statistical Models and Methods for Financial Markets</p>
-</li>
-<li><p>Tze Leung Lai, Haipeng Xing Active Risk Management: Financial Models and Statistical Methods</p>
-</li>
-<li><p>Tze Leung Lai, Yong Su and Kevin Haoyu Sun (2014) Dynamic Empirical Bayes Models and Their Applications to Longitudinal Data Analysis and Prediction</p>
-</li>
-<li><p>Tze Leung Lai, Yong Su and Zhiyu Wang Evaluation of Econometric Forecasts with Applications to Default Prediction in Small and Medium Sized Enterprises</p>
-</li>
-<li><p>Edward I. Altman and Gabriele Sabato. Modeling Credit Risk for SMEs: Evidence from the US Market</p>
-</li>
-<li><p>Jurg Schelldorfer, Lukas Meier and Peter Buhlmann GLMMLasso: An Algorithm for High-Dimensional Generalized Linear Mixed Models Using $l_1$-Penalization</p>
-</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;em&gt;STATS 243 Project&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data variables of SMEs datasets can be coverage to financial ratios, which have been used to analyze and predict firm bankruptcies. Altman (2001) developed a Z-score that is useful in predicting firm bankruptcies (a low score indicates high probability of failure). The predictive model was based on a firm’s working capital to assets, retained earnings to assets, EBIT to assets, market to book value of a share of stock, and revenues to assets.&lt;br&gt;In this project, I choice alternative approach. The goal is to find related variables and predict the failure risk of each individual in the testing set based on the various models, such as logistic regression and dynamic EB via GLMM discussed in Lai, Su and Sun (2014). To develops the specific model to estimate one-year SME probability of default, and illustrate the steps of my analysis and compare the results obtained using di↵erent statistical instruments.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="http://elvawyf.com/categories/Projects/"/>
     
     
   </entry>
