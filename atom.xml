@@ -461,10 +461,10 @@
   
   <entry>
     <title>Modeling Default Probability in SMEs</title>
-    <link href="http://elvawyf.com/2015/03/30/Stats243/"/>
-    <id>http://elvawyf.com/2015/03/30/Stats243/</id>
+    <link href="http://elvawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/"/>
+    <id>http://elvawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/</id>
     <published>2015-03-30T07:11:30.000Z</published>
-    <updated>2017-08-30T16:04:44.000Z</updated>
+    <updated>2017-09-03T03:27:19.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><em>STATS 243 Project</em></p>
 <p>The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data variables of SMEs datasets can be coverage to financial ratios, which have been used to analyze and predict firm bankruptcies. Altman (2001) developed a Z-score that is useful in predicting firm bankruptcies (a low score indicates high probability of failure). The predictive model was based on a firm’s working capital to assets, retained earnings to assets, EBIT to assets, market to book value of a share of stock, and revenues to assets.<br>In this project, I choice alternative approach. The goal is to find related variables and predict the failure risk of each individual in the testing set based on the various models, such as logistic regression and dynamic EB via GLMM discussed in Lai, Su and Sun (2014). To develops the specific model to estimate one-year SME probability of default, and illustrate the steps of my analysis and compare the results obtained using di↵erent statistical instruments.</p>
@@ -495,7 +495,7 @@
     
     </summary>
     
-      <category term="Projects" scheme="http://elvawyf.com/categories/Projects/"/>
+      <category term="Research &amp; Projects" scheme="http://elvawyf.com/categories/Research-Projects/"/>
     
     
   </entry>

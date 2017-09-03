@@ -3,19 +3,25 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2017/1 | Eva W.</title>
+    <title>Modeling Default Probability in SMEs | Eva W.</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="A travelogue by an adherent of futurism who devotes herself to Algorithms, Python Programming, Film Scoring and Music Production.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Eva W.">
-<meta property="og:url" content="http://elvawyf.com/archives/2017/01/index.html">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Modeling Default Probability in SMEs">
+<meta property="og:url" content="http://elvawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/index.html">
 <meta property="og:site_name" content="Eva W.">
-<meta property="og:description" content="A travelogue by an adherent of futurism who devotes herself to Algorithms, Python Programming, Film Scoring and Music Production.">
+<meta property="og:description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
+<meta property="og:updated_time" content="2017-09-03T03:27:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Eva W.">
-<meta name="twitter:description" content="A travelogue by an adherent of futurism who devotes herself to Algorithms, Python Programming, Film Scoring and Music Production.">
+<meta name="twitter:title" content="Modeling Default Probability in SMEs">
+<meta name="twitter:description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
 <meta property="fb:admins" content="elvawyf">
 <meta property="fb:app_id" content="690526847812353">
     
@@ -154,64 +160,137 @@ var _hmt = _hmt || [];
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>Archive: 2017/1
+    <a class="page-title-link" href="/categories/Research-Projects/">Research & Projects</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-Modeling-Default-Pobability-in-SMEs" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/Life/">Life</a>
-            </div>
-            <div class="date"><time datetime="2017-01-29T06:15:44.000Z" itemprop="datePublished">2017-01-29</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/01/29/New-Year-Resolution/">New Year&#39;s Resolution 2017</a>
+        Modeling Default Probability in SMEs
         </h1>
     
 
-        <p class="article-excerpt">
-             一首 James Horner 為蜘蛛俠做的電影配樂 Rooftop Kiss，感謝它陪我渡過了許多一個人安靜著、一點點前進的時光。
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2015/03/30/Modeling-Default-Pobability-in-SMEs/" class="article-date">
+            <time datetime="2015-03-30T07:11:30.000Z" itemprop="datePublished">2015-03-30</time>
+        </a>
+    </div>
+
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <script src="/assets/js/APlayer.min.js"> </script><p><em>STATS 243 Project</em></p>
+<p>The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data variables of SMEs datasets can be coverage to financial ratios, which have been used to analyze and predict firm bankruptcies. Altman (2001) developed a Z-score that is useful in predicting firm bankruptcies (a low score indicates high probability of failure). The predictive model was based on a firm’s working capital to assets, retained earnings to assets, EBIT to assets, market to book value of a share of stock, and revenues to assets.<br>In this project, I choice alternative approach. The goal is to find related variables and predict the failure risk of each individual in the testing set based on the various models, such as logistic regression and dynamic EB via GLMM discussed in Lai, Su and Sun (2014). To develops the specific model to estimate one-year SME probability of default, and illustrate the steps of my analysis and compare the results obtained using di↵erent statistical instruments.</p>
+<a id="more"></a>
+<h2 id="Dataset"><a href="#Dataset" class="headerlink" title="Dataset"></a>Dataset</h2><p>The SME datasets for n = 46595 record data (omitted the Na observations) included 1226 companies from 1994/01/31 to 2014/11/30 quarterly data, which is 20 years, 84-period observations per company if the company are still active.<br>In this case, set the training set t = 80, the last 4 periods (1 year) data set to be the testing set. Because, the interest will be adjusted per year generally. In addition, for forecasting more accurately in the k-step ahead predictions, k should be limited.</p>
+<h2 id="Features-and-Preprocessing"><a href="#Features-and-Preprocessing" class="headerlink" title="Features and Preprocessing"></a>Features and Preprocessing</h2><p>The variables in SME dataset are in the Table 1, included 19 financial data. Summary the SME data and check the quantile, for getting the first intuitive un- derstanding. For further process the SME datasets to be longitudinal and cross- sectional, converge the date to period t = 1, 2, …, 84 for specific company.<br>The Table 2. quantile of SME variables shows that the financial status of 1226 companies in the 20 years are complex.</p>
+<h2 id="Logistic-Regression-Model"><a href="#Logistic-Regression-Model" class="headerlink" title="Logistic Regression Model"></a>Logistic Regression Model</h2><p>\[\begin{equation}<br> Pr(I=1|\mathbf{x}=\mathbf{x})<br>      = \frac{\pi \exp{-d_1(\mathbf{x})/2}}<br>             {\pi \exp{-d_1(\mathbf{x})/2} + (1-\pi)\exp{-d_0(\mathbf{x})/2}    }<br>      = \frac{1}{1+e^{-s(\mathbf{x})}}    \notag<br>\end{equation} \] </p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><p>Tze Leung Lai, Haipeng Xing (2008) Statistical Models and Methods for Financial Markets</p>
+</li>
+<li><p>Tze Leung Lai, Haipeng Xing Active Risk Management: Financial Models and Statistical Methods</p>
+</li>
+<li><p>Tze Leung Lai, Yong Su and Kevin Haoyu Sun (2014) Dynamic Empirical Bayes Models and Their Applications to Longitudinal Data Analysis and Prediction</p>
+</li>
+<li><p>Tze Leung Lai, Yong Su and Zhiyu Wang Evaluation of Econometric Forecasts with Applications to Default Prediction in Small and Medium Sized Enterprises</p>
+</li>
+<li><p>Edward I. Altman and Gabriele Sabato. Modeling Credit Risk for SMEs: Evidence from the US Market</p>
+</li>
+<li><p>Jurg Schelldorfer, Lukas Meier and Peter Buhlmann GLMMLasso: An Algorithm for High-Dimensional Generalized Linear Mixed Models Using $l_1$-Penalization</p>
+</li>
+</ol>
+
+        </div>
+        <footer class="article-footer">
+            
 
 
 
+    <a data-url="http://elvawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/" data-id="cj746hcd80008crs6c6xrt92l" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
 
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
 
-新年一份小記，以後我想用繁體記錄自己，為興趣；用簡體寫有些知識體系的文章，為易讀。關於簡繁體轉換，當然要推薦byvoid的OpenCC，因為簡繁轉換的複雜性包括字體一對多問題，異體字的香港標準與台灣標準區別，以及地域用詞轉換在大陸與台灣的區別，具體在開放中文在線轉換 Open Chinese Convert 有直觀的體現。不過我現在前端的經驗幾乎為零，關於幾個想實現的功能等慢慢來優化吧。
-引子最近在喜馬拉雅上聽鵝娘講葡萄酒，欣賞之余還有很多反思，最早是在2010年我在遠洋的同事學法語時與喃貓相識，我順著發現了喃貓和她的飯書，不久喃貓就去了Le Cordon Bleu 法國藍帶，我一路喜歡她，像追美劇一樣看她更新各種學習料理制作美食的小事，她回國後我開始期待她做點什麼，漸漸發現鵝娘。
-剛開始我對鵝娘是沒什麼感覺的，因為對葡萄酒無感，在紅璽臺的時候曾經因為要辦紅酒雪茄吧，特意學了些酒的知識，跟臺灣一家接高端項目的廣告公司有過討論，雖然最終紅酒雪茄吧順利辦好了，但紅酒卻沒激起我的興趣。直到最近，去年經常去酒仙橋一家不錯的咖啡廳，沒錯就是“東隅domain”了，那裏似乎是很多商務和創投人偏好去的地方，因為每天準時到場開始做事，身邊聊到企鵝團和鵝娘的人就有好幾次，也見到過鵝娘本人來見朋友以及後來租場地辦活動。開始心生好奇，也經常會關註她的消息了。
-這幾天跟家人在一起，發現姐姐的喜馬拉雅裏保存了鵝娘，聽了幾集很是喜歡。她把葡萄酒講活了，講的系統有深度也很有趣，酸度、單寧和年份這些，每壹期都有讓人耳目一新的內容。仔細想想，她是布朗大學歷史系畢業的，在法國藍帶修了葡萄酒管理，又曾經以紐約留學女身份做反諷視頻，三者結合的甚好。
-而後我就在反思，自己學了很多東西，在舞蹈策劃金融互聯網有很多有意思的經歷，卻還沒有深入的做出一個產品，很好奇也很期待自己會最終做到些什麼有點意思的事情。在鍵盤上敲打的時候，收到了期待已久的“機器之心”的回復，從大年初一早上開始，最近幾天大概會陸續完成on-boarding的工作，希望今年好好研學AI，多寫點好的review出來。
-        </p>
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -272,6 +351,23 @@ var _hmt = _hmt || [];
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2015/09/15/HFT-in-Dynamic-Limit-Order/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -436,11 +532,13 @@ var _hmt = _hmt || [];
     var disqus_shortname = 'elvawyf';
     
     
+    var disqus_url = 'http://elvawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
