@@ -438,14 +438,14 @@
   
   <entry>
     <title>High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order</title>
-    <link href="http://elvawyf.com/2015/09/15/en/High-Frequency-Trading-and-Algorithmic-Trading-inDynamic-Limit-Order/"/>
-    <id>http://elvawyf.com/2015/09/15/en/High-Frequency-Trading-and-Algorithmic-Trading-inDynamic-Limit-Order/</id>
+    <link href="http://elvawyf.com/2015/09/15/en/HFT-in-Dynamic-Limit-Order/"/>
+    <id>http://elvawyf.com/2015/09/15/en/HFT-in-Dynamic-Limit-Order/</id>
     <published>2015-09-14T19:57:33.000Z</published>
-    <updated>2017-08-30T19:58:58.000Z</updated>
+    <updated>2017-09-03T03:08:38.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In the high-frequency trading, the market maker faces an inventory risk due to the di↵usive nature of the<br>stocks mid-price and a transactions risk due to a Poisson arrival of market buy and sell order.<br>Studies of the mechanisms involved in trading financial assets have traditionally focused on quote-driven<br>markets, where a market maker or dealer centralizes buy and sell orders and provides liquidity by setting<br>bid and ask quotes, and an alternative order-driven trading system. The dynamics of a limit order book<br>resembles in many aspects that of a queuing system. Limit orders wait in a queue to be executed against<br>market orders (or canceled).</p>
-<p>An important motivation for modelling high-frequency dynamics of order books is to use the information<br>on the current state of the order book to predict its short-term behavior. Therefore, focus on conditional<br>probabilities of events, given the state of the order book.<br>In this project, I replicate the simulation of the high-frequency trading in a limit order book, (Avellaneda<br>and Stoikov 2006) as understanding process for the mechanism of market making inventory strategy, and<br>further consider the stochastic model for order book dynamics (Cont, Stoikov and Talreja 2009).<br>Then, focus on the e↵ective of the mid-price trend prediction and the liquidity parameter of Poisson process.<br>In practical, calculate out the signals by moving average, realized volatility for order risk management,<br>and applicate statistical methods confirm the dynamic spreads and the cancellations.</p>
-<h3 id="Inventory-Strategy"><a href="#Inventory-Strategy" class="headerlink" title="Inventory Strategy"></a>Inventory Strategy</h3><p>Simplicity the limit order book for understanding the inventory control mechanism. This part of objective<br>is to replicate the Avellaneda and Stoikov (2009). The solution in a two step procedure:<br>First, the dealer computes a personal indi↵erence valuation given specific personal inventory.<br>Second, calculate the bid and ask quotes to the market limit order book.</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In the high-frequency trading, the market maker faces an inventory risk due to the diffusive nature of the stocks mid-price and a transactions risk due to a Poisson arrival of market buy and sell order. Studies of the mechanisms involved in trading financial assets have traditionally focused on quote-driven markets, where a market maker or dealer centralizes buy and sell orders and provides liquidity by setting bid and ask quotes, and an alternative order-driven trading system. The dynamics of a limit order book resembles in many aspects that of a queuing system. Limit orders wait in a queue to be executed against market orders (or canceled).</p>
+<p>An important motivation for modelling high-frequency dynamics of order books is to use the information on the current state of the order book to predict its short-term behavior. Therefore, focus on conditional probabilities of events, given the state of the order book. In this project, I replicate the simulation of the high-frequency trading in a limit order book, (Avellaneda and Stoikov 2006) as understanding process for the mechanism of market making inventory strategy, and further consider the stochastic model for order book dynamics (Cont, Stoikov and Talreja 2009). Then, focus on the effective of the mid-price trend prediction and the liquidity parameter of Poisson process. In practical, calculate out the signals by moving average, realized volatility for order risk management, and applicate statistical methods confirm the dynamic spreads and the cancellations.</p>
+<h3 id="Inventory-Strategy"><a href="#Inventory-Strategy" class="headerlink" title="Inventory Strategy"></a>Inventory Strategy</h3><p>Simplicity the limit order book for understanding the inventory control mechanism. This part of objective is to replicate the Avellaneda and Stoikov (2009). The solution in a two step procedure: First, the dealer computes a personal indi↵erence valuation given specific personal inventory. Second, calculate the bid and ask quotes to the market limit order book.</p>
 ]]></content>
     
     <summary type="html">
@@ -454,15 +454,15 @@
     
     </summary>
     
-      <category term="Projects" scheme="http://elvawyf.com/categories/Projects/"/>
+      <category term="Research &amp; Projects" scheme="http://elvawyf.com/categories/Research-Projects/"/>
     
     
   </entry>
   
   <entry>
     <title>Modeling Default Probability in SMEs</title>
-    <link href="http://elvawyf.com/2015/03/30/en/stats243/"/>
-    <id>http://elvawyf.com/2015/03/30/en/stats243/</id>
+    <link href="http://elvawyf.com/2015/03/30/en/Stats243/"/>
+    <id>http://elvawyf.com/2015/03/30/en/Stats243/</id>
     <published>2015-03-30T07:11:30.000Z</published>
     <updated>2017-08-30T16:04:44.000Z</updated>
     
