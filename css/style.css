@@ -937,7 +937,7 @@ code {
   clear: both;
 }
 .article-summary {
-  width: 100%;
+  width: 50%;
   float: left;
   margin-bottom: 30px;
 }
