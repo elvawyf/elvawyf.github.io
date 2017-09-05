@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://elvawyf.com/"/>
-  <updated>2017-08-30T19:54:12.000Z</updated>
+  <updated>2017-09-05T00:29:32.000Z</updated>
   <id>http://elvawyf.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://elvawyf.com/2017/02/23/Monte-Carlo-Localization/"/>
     <id>http://elvawyf.com/2017/02/23/Monte-Carlo-Localization/</id>
     <published>2017-02-22T19:49:45.000Z</published>
-    <updated>2017-08-30T19:54:12.000Z</updated>
+    <updated>2017-09-05T00:29:32.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Synced Review Link: <a href="https://syncedreview.com/2017/02/22/monte-carlo-localization-efficient-position-estimation-for-mobile-robots/" target="_blank" rel="external">https://syncedreview.com/2017/02/22/monte-carlo-localization-efficient-position-estimation-for-mobile-robots/</a></p>
 <h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>Monte Carlo Localization uses randomized samples to represent a robot’s belief about its location in an environment and is notable for its accuracy, efficiency, and ease of use compared to previous approaches. MCL was first presented in 1999 at the International Conference on Robotics and Automation and was the first application of sample-based estimation in robotics, where it is now used across a wide range of application.</p>
@@ -45,9 +45,10 @@
     <link href="http://elvawyf.com/2017/01/29/New-Year-Resolution/"/>
     <id>http://elvawyf.com/2017/01/29/New-Year-Resolution/</id>
     <published>2017-01-29T06:15:44.000Z</published>
-    <updated>2017-08-30T15:56:02.000Z</updated>
+    <updated>2017-09-05T00:27:09.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><font color="#C0C0C0" size="1px"><em> 一首 James Horner 為蜘蛛俠做的電影配樂 Rooftop Kiss，感謝它陪我渡過了許多一個人安靜著、一點點前進的時光。</em></font>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><img src="http://okss0nu53.bkt.clouddn.com/201701-1.jpg?imageslim" alt="1月格子照"></p>
+<font color="#C0C0C0" size="1px"><em> 一首 James Horner 為蜘蛛俠做的電影配樂 Rooftop Kiss，感謝它陪我渡過了許多一個人安靜著、一點點前進的時光。</em></font>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="350" height="86" src="//music.163.com/outchain/player?type=2&id=18618005&auto=1&height=66"></iframe>
 
@@ -78,7 +79,8 @@
     
     <summary type="html">
     
-      &lt;font color=&quot;#C0C0C0&quot; size = &quot;1px&quot;&gt;&lt;em&gt; 一首 James Horner 為蜘蛛俠做的電影配樂 Rooftop Kiss，感謝它陪我渡過了許多一個人安靜著、一點點前進的時光。&lt;/em&gt;&lt;/font&gt;
+      &lt;p&gt;&lt;img src=&quot;http://okss0nu53.bkt.clouddn.com/201701-1.jpg?imageslim&quot; alt=&quot;1月格子照&quot;&gt;&lt;/p&gt;
+&lt;font color=&quot;#C0C0C0&quot; size = &quot;1px&quot;&gt;&lt;em&gt; 一首 James Horner 為蜘蛛俠做的電影配樂 Rooftop Kiss，感謝它陪我渡過了許多一個人安靜著、一點點前進的時光。&lt;/em&gt;&lt;/font&gt;
 
 &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=350 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=18618005&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
 
@@ -377,9 +379,10 @@
     <link href="http://elvawyf.com/2016/01/25/StartUp2016/"/>
     <id>http://elvawyf.com/2016/01/25/StartUp2016/</id>
     <published>2016-01-25T08:32:16.000Z</published>
-    <updated>2017-08-30T15:55:48.000Z</updated>
+    <updated>2017-09-05T00:29:06.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><right><font color="#C0C0C0" size="1px"><em>Howard Shore 為指環王做的電影配樂 Concerning Hobbits 感動于霍比特人恬靜的田園生活，還有默默拯救全世界的旅程。</em></font></right>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><img src="http://okss0nu53.bkt.clouddn.com/SF-GB.JPG" alt="許願灣"></p>
+<right><font color="#C0C0C0" size="1px"><em>Howard Shore 為指環王做的電影配樂 Concerning Hobbits 感動于霍比特人恬靜的田園生活，還有默默拯救全世界的旅程。</em></font></right>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=3993991&auto=1&height=66"></iframe>
 
@@ -419,7 +422,8 @@
     
     <summary type="html">
     
-      &lt;right&gt;&lt;font color=&quot;#C0C0C0&quot; size = &quot;1px&quot;&gt;&lt;em&gt;Howard Shore 為指環王做的電影配樂 Concerning Hobbits 感動于霍比特人恬靜的田園生活，還有默默拯救全世界的旅程。&lt;/em&gt;&lt;/font&gt;&lt;/right&gt;
+      &lt;p&gt;&lt;img src=&quot;http://okss0nu53.bkt.clouddn.com/SF-GB.JPG&quot; alt=&quot;許願灣&quot;&gt;&lt;/p&gt;
+&lt;right&gt;&lt;font color=&quot;#C0C0C0&quot; size = &quot;1px&quot;&gt;&lt;em&gt;Howard Shore 為指環王做的電影配樂 Concerning Hobbits 感動于霍比特人恬靜的田園生活，還有默默拯救全世界的旅程。&lt;/em&gt;&lt;/font&gt;&lt;/right&gt;
 
 &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=3993991&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
 
