@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://elvawyf.com/about/index.html</loc>
+    <loc>http://elvawyf.com/categories/index.html</loc>
     
-    <lastmod>2017-10-09T18:02:53.000Z</lastmod>
+    <lastmod>2017-10-11T05:07:45.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://elvawyf.com/2016/01/25/StartUp2016/</loc>
     
-    <lastmod>2017-09-28T17:12:16.000Z</lastmod>
+    <lastmod>2017-10-11T04:29:25.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://elvawyf.com/2017/02/23/Monte-Carlo-Localization/</loc>
     
-    <lastmod>2017-09-05T00:29:32.000Z</lastmod>
+    <lastmod>2017-10-11T04:29:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://elvawyf.com/2015/09/15/HFT-in-Dynamic-Limit-Order/</loc>
+    
+    <lastmod>2017-10-11T04:29:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://elvawyf.com/2016/11/12/ACD-GARCH/</loc>
+    
+    <lastmod>2017-10-11T04:28:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://elvawyf.com/about/index.html</loc>
+    
+    <lastmod>2017-10-09T18:20:43.000Z</lastmod>
     
   </url>
   
@@ -26,20 +47,6 @@
     <loc>http://elvawyf.com/2017/01/29/New-Year-Resolution/</loc>
     
     <lastmod>2017-09-05T00:27:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://elvawyf.com/2016/11/12/ACD-GARCH/</loc>
-    
-    <lastmod>2017-09-03T06:35:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://elvawyf.com/2015/09/15/HFT-in-Dynamic-Limit-Order/</loc>
-    
-    <lastmod>2017-09-03T06:35:49.000Z</lastmod>
     
   </url>
   
