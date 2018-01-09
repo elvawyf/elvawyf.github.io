@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://evawyf.com/about/index.html</loc>
+    
+    <lastmod>2018-01-09T11:50:23.958Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://evawyf.com/updatelog/index.html</loc>
     
     <lastmod>2017-12-15T01:25:29.985Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://evawyf.com/2016/11/12/ACD-GARCH/</loc>
     
     <lastmod>2017-10-11T04:28:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://evawyf.com/about/index.html</loc>
-    
-    <lastmod>2017-10-09T18:20:43.000Z</lastmod>
     
   </url>
   
