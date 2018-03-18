@@ -1,164 +1,143 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
-    <title>
-        
-        Modeling Default Probability in SMEs · Eva Wang
-        
-    </title>
-    <link rel="icon" href= /assests/favicon.ico>
-    <!-- 提前加载place holder  -->
-    <style>
-        @font-face {
-            font-family: 'Oswald-Regular';
-            src: url('../../../../font/Oswald-Regular.ttf');
-        }
-        @font-face {
-            font-family: 'Source Sans Pro';
-            src: url('../../../../font/Source Sans Pro.woff'),
-            url('../../../../font/Source Sans Pro.woff2');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'Source Code Pro';
-            src: url('../../../../font/SourceCodePro-Regular.ttf.woff'),
-            url('../../../../font/SourceCodePro-Regular.ttf.woff2');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        
-        .site-intro-placeholder {
-        position: absolute;
-        z-index: -2;
-        top: 0;
-        left: 0px;
-        width: calc(100% + 300px);
-        height: 100%;
-        background: repeating-linear-gradient(-45deg, #444 0, #444 80px, #333 80px, #333 160px);
-        background-position: center center;
-        transform: translate3d(-226px, 0, 0);
-        animation: gradient-move 2s ease-out 0s 1;
-        }
-        @keyframes gradient-move {
-        0% {
-            transform: translate3d(-226px, 0, 0);
-        }
-        99% {
-            transform: translate3d(0, 0, 0);
-        }
-        99.1% {
-            transform: translate3d(-226px, 0, 0);
-        }
-        100% {
-            transform: translate3d(-226px, 0, 0);
-        }
-    }
-    </style>
-    <link rel="stylesheet" href="../../../../css/style.css">
-    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js" defer></script>
+<head>
+
+  <meta name="google-site-verification" content="xA_FhYaR3yJ4ovuBMAshK7SIkgIeUAexDbNZdpWJtO4" />
+  <meta name="baidu-site-verification" content="zLB83nZjbr" />
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+  <meta charset="utf-8">
+  
+  <title>modeling default probability in smes | Eva W.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+    <meta name="google-site-verification" content="xA_FhYaR3yJ4ovuBMAshK7SIkgIeUAexDbNZdpWJtO4" />
+  
+  
+    <meta name="baidu-site-verification" content="zLB83nZjbr" />
+  
+  
+  <meta name="description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Modeling Default Probability in SMEs">
+<meta property="og:url" content="http://evawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/index.html">
+<meta property="og:site_name" content="Eva W.">
+<meta property="og:description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
+<meta property="og:updated_time" content="2017-09-03T06:35:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Modeling Default Probability in SMEs">
+<meta name="twitter:description" content="STATS 243 Project
+The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data var">
+<meta name="twitter:creator" content="@elvawyf">
+<meta property="fb:admins" content="elvawyf">
+<meta property="fb:app_id" content="1161455900618460">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
     
-    <script src="../../../../scripts/main.js" defer></script>
-    <!-- 百度统计  -->
-    
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-        var hm = document.createElement("script");
-        hm.src = "7cf1f77bd9ef1d49da8712af3b84fac4";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-    
-    <!-- 谷歌统计  -->
-    
-    <script>
-        (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'xA_FhYaR3yJ4ovuBMAshK7SIkgIeUAexDbNZdpWJtO4', 'auto');
-        ga('send', 'pageview');
-    </script>
-    
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  <link rel="stylesheet" href="../../../../css/style.css">
+
+  <script src="../../../../js/jquery-3.1.1.min.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+  <link rel="stylesheet" href="/css/hiero.css" >
+  <link rel="stylesheet" href="/css/glyphs.css" >
+
 </head>
-    
-        <body class="post-body">
-    
-    
-<header class="header">
 
-    <div class="header-sidebar-menu">&#xe775;</div>
-    <!-- post页的toggle banner  -->
-    
-    <div class="banner">
-            <div class="blog-title">
-                <a href="../../../../index.html" >Eva&#39;s Studio.</a>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  <header id="allheader" class="site-header" role="banner">
+  <div class="clearfix container">
+      <div class="site-branding">
+
+          <h1 class="site-title">
+            
+              <a href="/" title="Eva W." rel="home"> Eva W. </a>
+            
+          </h1>
+
+          
+            <div class="site-description">The most powerful warriors are patience and time. 🦄 Sequoia.</div>
+          
+            
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">Menu</a>
+            <a class="nav-close">Close</a>
+            <div class="clearfix sf-menu">
+
+              <ul id="main-nav" class="nmenu sf-js-enabled">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="../../../../index.html">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="../../../../archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="../../../../categories">Categories</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="../../../../updatelog">update log</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="https://open.spotify.com/user/22jgytxlmfnh3rtx2wppodsga/playlist/1OVxYeCuUVrlrcVX7hq0Uw">spotify playlist</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="../../../../about">About</a> </li>
+                    
+              </ul>
             </div>
-            <div class="post-title">
-                <a href="#" class="post-name">Modeling Default Probability in SMEs</a>
-            </div>
-    </div>
-    
-    <a class="home-link" href=/>Eva's Studio.</a>
+          </nav>
+
+
+      </div>
+  </div>
 </header>
-    <div class="wrapper">
-        <div class="site-intro">
-    
-    <!-- 主页  -->
-    
-    
-    <!-- 404页  -->
-    
-    <div class="site-intro-img" style="background-image: url(http://okss0nu53.bkt.clouddn.com/Stanford1.jpg)"></div>
-    <div class="site-intro-placeholder"></div>
-    <div class="site-intro-meta">
-        <!-- 标题  -->
-        <h1 class="intro-title">
-            <!-- 主页  -->
-            
-            Modeling Default Probability in SMEs
-            <!-- 404 -->
-            
-        </h1>
-        <!-- 副标题 -->
-        <p class="intro-subtitle">
-            <!-- 主页副标题  -->
-            
-            
-        </p>
-        <!-- 404 -->
-        
-        <!-- 文章页meta -->
-        
-            <!-- 文章页标签  -->
-            
-            <div class="post-intro-meta">
-                <span class="post-intro-calander iconfont-archer">&#xe676;</span>
-                <span class="post-intro-time">2015/03/30</span>
-            </div>
-            <!-- 
 
-<div class="post-share iconfont-archer">
-    <ul class="share-box" data-href = "" data-title = "Modeling Default Probability in SMEs" >
-        <li class="to-weibo">分享到微博</li>
-        <li class="to-wechat">分享到微信</li>
-        <li class="to-qq">分享到QQ</li>
-        <li class="to-twitter">分享到twitter</li>
-    </ul>
-</div> -->
+
+
+
+  <div id="container">
+    <div id="wrap">
+            
+      <div id="content" class="outer">
         
+          <section id="main" style="float:none;"><article id="post-Modeling-Default-Pobability-in-SMEs" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      Modeling Default Probability in SMEs
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	Posted on <a href="" class="article-date">
+	  <time datetime="2015-03-30T07:11:30.000Z" itemprop="datePublished">March 30, 2015</time>
+	</a>
+
     </div>
-</div>
-        <div class="container">
-            <main class="main post-page">
-    <article class="article-entry">
+    <div class="article-entry" itemprop="articleBody">
+      
         <script src="/assets/js/APlayer.min.js"> </script><p><em>STATS 243 Project</em></p>
 <p>The small and medium sized enterprises (SMEs) in the economy of many coun- tries and the considerable attention placed on SMEs in the new Basel Capital Accord. The financial data variables of SMEs datasets can be coverage to financial ratios, which have been used to analyze and predict firm bankruptcies. Altman (2001) developed a Z-score that is useful in predicting firm bankruptcies (a low score indicates high probability of failure). The predictive model was based on a firm’s working capital to assets, retained earnings to assets, EBIT to assets, market to book value of a share of stock, and revenues to assets.<br>In this project, I choice alternative approach. The goal is to find related variables and predict the failure risk of each individual in the testing set based on the various models, such as logistic regression and dynamic EB via GLMM discussed in Lai, Su and Sun (2014). To develops the specific model to estimate one-year SME probability of default, and illustrate the steps of my analysis and compare the results obtained using di↵erent statistical instruments.</p>
 <a id="more"></a>
@@ -180,308 +159,207 @@
 </li>
 </ol>
 
-    </article>
-    <!-- 前后页  -->
-    <ul class="post-pager">
-        
-            <li class="previous">
-                <a href= "../../../09/15/HFT-in-Dynamic-Limit-Order/" title= High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order >
-                    <span>Previous Post</span>
-                    <span>High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order</span>
-                </a>
-            </li>
-        
-        
-    </ul>
-    <!-- 来必力City版安装代码 -->
+      
+    </div>
+    <footer class="entry-meta entry-footer">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="../../../../categories/Research-Projects/">Research & Projects</a>
 
-    
+      
+      
+        
+	<section id="comments" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
 
-<!-- City版安装代码已完成 -->
-</main>
-            <!-- profile -->
-            
-        </div>
-        <footer class="footer">
-    <!-- social  -->
-    
-    <div class="social">
-        
-    
-        
-            
-                <a href="https://www.linkedin.com/in/evawyf/" class="iconfont-archer linkedin" target="_blank" title="linkedin"></a>
-            
-        
-    
-        
-            
-                <a href="//github.com/evawyf" class="iconfont-archer github" target="_blank" title="github"></a>
-            
-        
-    
-        
-            
-                <a href="https://twitter.com/evawyf/" class="iconfont-archer twitter" target="_blank" title="twitter"></a>
-            
-        
-    
-        
-            
-                <a href="https://www.facebook.com/evawyf/" class="iconfont-archer facebook" target="_blank" title="facebook"></a>
-            
-        
-    
-        
-            
-                <a href="http://weibo.com/208123230" class="iconfont-archer weibo" target="_blank" title="weibo"></a>
-            
-        
-    
-        
-            
-                <a href="emailto:evawyf1@gmail.com" class="iconfont-archer email" title=email ></a>
-            
-        
-    
-        
-            
-                <a href="http://paypal.me/elvawyf" class="iconfont-archer paypal" target="_blank" title="paypal"></a>
-            
-        
-    
+	<script type="text/javascript">
+	var disqus_shortname = 'elvawyf';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
 
-    </div>
-    
-    <!-- powered by Hexo  -->
-    <div class="copyright">
-        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span>
-        <span
-            id="theme-info">Theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">archer</a></span>
-    </div>
-    <!-- 不蒜子  -->
-    
-    <div class="busuanzi-container">
-        <span id="busuanzi_container_site_pv">Welcome, No. <span id="busuanzi_value_site_pv"></span>
-        </span>
-    </div>
-    
-</footer>
-    </div>
-    <div class="back-top">&#xe639;</div>
-    <div class="sidebar">
-    <div class="sidebar-header">
-        <div class="sidebar-category">
-            <span class="sidebar-archive-link"><span class="iconfont-archer">&#xe67d;</span>Archive</span>
-            <span class="sidebar-tags-link"><span class="iconfont-archer">&#xe610;</span>Tag</span>
-        </div>
-    </div>
-    <div class="sidebar-content sidebar-content-show-archive">
-          <div class="sidebar-archive">
-    <!-- 在ejs中将archive按照时间排序 -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="total-archive"> Total : 8 </div>
-    
-    <div class="post-archive">
-    
-    
-    
-    
-    <div class="archive-year"> 2017 </div>
-    <ul class="year-list">
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">02/23</span><a class="archive-post-title" href= "../2017/02/23/Monte-Carlo-Localization/" >Monte Carlo Localization - Efficient Position Estimation for Mobile Robots</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/29</span><a class="archive-post-title" href= "../2017/01/29/New-Year-Resolution/" >New Year's Resolution 2017</a>
-        </li>
-    
-    
-    
-    
-    
-        </ul>
-    
-    <div class="archive-year"> 2016 </div>
-    <ul class="year-list">
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">11/12</span><a class="archive-post-title" href= "../2016/11/12/ACD-GARCH/" >ACD-GARCH</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">09/17</span><a class="archive-post-title" href= "../2016/09/17/Materials/" >ML Materials Collection</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">09/06</span><a class="archive-post-title" href= "../2016/09/06/HFT-Review/" >HFT Review</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">01/25</span><a class="archive-post-title" href= "../2016/01/25/StartUp2016/" >StartUp 2016</a>
-        </li>
-    
-    
-    
-    
-    
-        </ul>
-    
-    <div class="archive-year"> 2015 </div>
-    <ul class="year-list">
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">09/15</span><a class="archive-post-title" href= "../2015/09/15/HFT-in-Dynamic-Limit-Order/" >High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order</a>
-        </li>
-    
-    
-        <li class="archive-post-item">
-            <span class="archive-post-date">03/30</span><a class="archive-post-title" href= "../2015/03/30/Modeling-Default-Pobability-in-SMEs/" >Modeling Default Probability in SMEs</a>
-        </li>
-    
-    </div>
+
+
+      
+    </footer>
   </div>
-        <div class="sidebar-tags">
-    <div class="sidebar-tags-name">
+  
     
-        <span class="sidebar-tag-name"><a href= "#">Market Microstructure</a></span>
+<nav id="article-nav">
+  
+    <a href="../../../09/15/HFT-in-Dynamic-Limit-Order/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          High-Frequency Trading and Algorithmic Trading in Dynamic Limit Order
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
     
-        <span class="sidebar-tag-name"><a href= "#">Self-Driving Car</a></span>
-    
-        <span class="sidebar-tag-name"><a href= "#">Start-up</a></span>
+      <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Dataset"><span class="nav-number">1.</span> <span class="nav-text">Dataset</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Features-and-Preprocessing"><span class="nav-number">2.</span> <span class="nav-text">Features and Preprocessing</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Logistic-Regression-Model"><span class="nav-number">3.</span> <span class="nav-text">Logistic Regression Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">Reference</span></a></li></ol>
     
     </div>
-    <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
-    缺失模块。<br/>
-    1、请确保node版本大于6.2<br/>
-    2、在博客根目录（注意不是archer根目录）执行以下命令：<br/>
-    <span style="color: #f75357; font-size: 1rem; line-height: 2rem;">npm i hexo-generator-json-content --save</span><br/>
-    3、在根目录_config.yml里添加配置：
-    <pre style="color: #888; font-size: 0.6rem;">
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true</pre>
-    </div> 
-    <div class="sidebar-tag-list"></div>
-</div>
-    </div>
-</div> 
-    <script>
-    var jsInfo = {
-        root: '/'
-    }
+  </aside>
+</section>
+        
+      </div>
+      <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+      <div class="site-info">
+	      &copy; 2018 Eva W. All Rights Reserved.  京ICP备17011060号
+      </div>
+      <div class="site-credit">
+        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hiero" target="_blank">hiero</a>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var contentdiv = document.getElementById("content");
+
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
 </script>
-    <!-- 不蒜子  -->
-    
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
-    <!-- CNZZ统计  -->
-    
     </div>
-    </body>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="../../../../index.html" class="mobile-nav-link">Home</a>
+  
+    <a href="../../../../archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="../../../../categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="../../../../updatelog" class="mobile-nav-link">Update Log</a>
+  
+    <a href="https://open.spotify.com/user/22jgytxlmfnh3rtx2wppodsga/playlist/1OVxYeCuUVrlrcVX7hq0Uw" class="mobile-nav-link">Spotify Playlist</a>
+  
+    <a href="../../../../about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+<script>
+  var disqus_shortname = 'elvawyf';
+  
+  var disqus_url = 'http://evawyf.com/2015/03/30/Modeling-Default-Pobability-in-SMEs/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<div style="display: none;">
+  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+</div>
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="../../../../fancybox/jquery.fancybox.css">
+  <script src="../../../../fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="../../../../js/script.js"></script>
+<script src="../../../../js/bootstrap.js"></script>
+<script src="../../../../js/main.js"></script>
+
+
+	<!-- Google Analytics -->
+		<script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-91252365-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	<!-- End Google Analytics -->
+
+
+
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7cf1f77bd9ef1d49da8712af3b84fac4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+  
+
+</body>
 </html>
-
-
